@@ -36,7 +36,7 @@ ui <- fluidPage(
                              label = "Code",
                              icon = icon("github"),
                              width = "77px",
-                             onclick ="window.open(`https://github.com/howardbaik`, '_blank')",
+                             onclick ="window.open(`https://github.com/howardbaik/medium-claps-predictor`, '_blank')",
                              style="color: #fff; background-color: #767676; border-color: #767676"),
                 style = "position:absolute;right:2em;"
               )
@@ -70,7 +70,13 @@ ui <- fluidPage(
            textOutput("app_intro"),
            uiOutput("app_info"),
            uiOutput("app_motivation"),
-           textOutput("model_info")
+           textOutput("model_info"),
+           
+           h5("Built with",
+              img(src = "https://www.rstudio.com/wp-content/uploads/2014/04/shiny.png", height = "30px"),
+              "by",
+              img(src = "https://www.rstudio.com/wp-content/uploads/2014/07/RStudio-Logo-Blue-Gray.png", height = "30px")
+           )
            
     ),
     
