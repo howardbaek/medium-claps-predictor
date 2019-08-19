@@ -5,7 +5,6 @@ library(shinyWidgets)
 library(DT)
 
 
-
 # NOTE: Model Estimate has no duplicate terms
 model_estimate <- read_csv("model_estimate.csv") %>% 
   select(term, estimate)
@@ -30,7 +29,7 @@ ui <- fluidPage(
                              label = "Twitter",
                              icon = icon("twitter"),
                              width = "80px",
-                             onclick ="window.open(`https://twitter.com/howiebaik`, '_blank')",
+                             onclick ="window.open(`https://twitter.com/howard_baik`, '_blank')",
                              style="color: #fff; background-color: #00acee; border-color: #00acee"),
                 actionButton("github",
                              label = "Code",
