@@ -29,13 +29,13 @@ ui <- fluidPage(
                              label = "Twitter",
                              icon = icon("twitter"),
                              width = "80px",
-                             onclick ="window.open(`https://twitter.com/howard_baik`, '_blank')",
+                             onclick ="window.open(`https://twitter.com/howard_baek`, '_blank')",
                              style="color: #fff; background-color: #00acee; border-color: #00acee"),
                 actionButton("github",
                              label = "Code",
                              icon = icon("github"),
                              width = "77px",
-                             onclick ="window.open(`https://github.com/howardbaik/medium-claps-predictor`, '_blank')",
+                             onclick ="window.open(`https://github.com/howardbaek/medium-claps-predictor`, '_blank')",
                              style="color: #fff; background-color: #767676; border-color: #767676"),
                 style = "position:absolute;right:2em;"
               )
@@ -155,7 +155,7 @@ server <- function(input, output) {
   
   
   # App Info
-  howard_baik <- a("Howard Baik", href="https://insidethetv.netlify.com/")
+  howard_baek <- a("Howard Baek", href="https://insidethetv.netlify.com/")
   drob <- a("David Robinson's Tidy Tuesday Screencast", href="https://youtu.be/C69QyycHsgE?t=3530")
   
   output$app_intro <- renderText({
@@ -166,7 +166,7 @@ server <- function(input, output) {
   
   output$app_info <- renderUI({
     
-    tagList("- Developed by", howard_baik)
+    tagList("- Developed by", howard_baek)
   })
   
   output$app_motivation <- renderUI({

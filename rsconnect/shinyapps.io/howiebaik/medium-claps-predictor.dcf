@@ -1,0 +1,12 @@
+name: medium-claps-predictor
+title: medium-claps-predictor
+username:
+account: howiebaik
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1030609
+bundleId: 2334113
+url: https://howiebaik.shinyapps.io/medium-claps-predictor/
+when: 1566219102.426
+asMultiple: FALSE
+asStatic: FALSE
